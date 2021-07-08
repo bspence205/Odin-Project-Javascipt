@@ -90,3 +90,56 @@ button.onclick = function () {
   let name = prompt("Who wins: Goku vs Superman vs Omniman");
   alert("You win " + name);
 };
+
+// Conditional Practice //
+
+let mark = 5 > 9 ? true : false;
+
+console.log(mark);
+
+let char = 5000;
+let pika = 1000;
+let evee = 400;
+let pokemonCost = char + pika + evee;
+console.log(pokemonCost);
+
+let evol = char > pika;
+let evol1 = evee > pika;
+let evol2 = evee >= 425;
+console.log(evol);
+console.log(evol1);
+console.log(evol2);
+
+const firstName = "Brian ";
+const lastName = "Spencer ";
+const age = "21 ";
+
+let profile = firstName + lastName + age;
+
+let newHire = "Hi! " + profile + "Welcome to the Team";
+
+console.log(newHire);
+
+let xc = 12;
+
+if (xc > 10) {
+  console.log("Good Shit");
+} else {
+  console.log("Try Again");
+}
+
+if (xc > 13 || xc < 3) {
+  console.log("oh yea");
+} else if (xc > 11) {
+  console.log("damn");
+}
+
+if (xc >= 12 && xc == 12) {
+  console.log("fuhhh");
+} else {
+  console.log("nooo");
+}
+
+if (xc !== 10) {
+  console.log("Aint Worthy");
+}
