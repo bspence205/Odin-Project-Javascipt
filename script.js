@@ -65,4 +65,28 @@ let actual = max - 13;
 let percentage = actual / max;
 console.log(percentage);
 
-// Strings //
+/**
+ * Data Types:
+ * 1.Number
+ * 2.BigInit
+ * 3.String
+ * 4.Boolean
+ * 5.Null
+ * 6.Undefined
+ * 7.Object
+ * 8.Symbol
+ */
+
+// Embedded Variable into String //
+
+let emb = "John";
+console.log(`Hello ${emb}`);
+
+// Concatenation with Button //
+
+const button = document.querySelector("button");
+
+button.onclick = function () {
+  let name = prompt("Who wins: Goku vs Superman vs Omniman");
+  alert("You win " + name);
+};
