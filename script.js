@@ -143,3 +143,5 @@ if (xc >= 12 && xc == 12) {
 if (xc !== 10) {
   console.log("Aint Worthy");
 }
+
+// Function Practice //
