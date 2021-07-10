@@ -193,3 +193,24 @@ function favoriteAnimal(animal) {
 }
 
 favoriteAnimal("Dogs");
+
+let exam = (a, b) => a + b;
+console.log(exam(1, 2));
+
+//  Fundamentals pt 3 Practice //
+
+let add7 = (num) => num + 7;
+console.log(add7(19));
+
+let multiply = (a, b) => a * b;
+console.log(multiply(4, 5));
+
+let myLetter = prompt("Enter a word. The last letter will be returned.");
+
+lastLetter(myLetter);
+
+function lastLetter(myLetter) {
+  let letter = myLetter.slice(-1);
+  console.log(letter);
+  return letter;
+}
