@@ -199,6 +199,52 @@ console.log(exam(1, 2));
 
 //  Fundamentals pt 3 Practice //
 
+// Practice July 11
+let testRun = (a, b) => a * b;
+
+console.log(testRun(3, 5));
+
+function whyReturn(anime) {
+  console.log(anime + " is top tier animation");
+}
+
+whyReturn("Vinland Saga");
+
+function priceCheck(price) {
+  if (price >= 90 || price <= 45) {
+    console.log("Do not buy");
+  } else {
+    console.log("Free real estate");
+  }
+}
+
+priceCheck(90);
+priceCheck(33);
+priceCheck(55);
+
+// Problem Solving Practice
+
+let apple = parseInt(prompt("Enter a number you want to FizzBuzz up to"));
+
+for (let f = 1; f <= apple; f++) {
+  if (f % 3 === 0 && f % 5 === 0) {
+    console.log("Fizzbuz");
+  } else if (f % 3 === 0) {
+    console.log("Fizz");
+  } else if (f % 5 === 0) {
+    console.log("Bizz");
+  } else {
+    console.log(f);
+  }
+}
+
+function myTest(a, b) {
+  myTest = a * b;
+  console.log(myTest);
+}
+
+myTest(79, 7);
+
 let add7 = (num) => num + 7;
 console.log(add7(19));
 
