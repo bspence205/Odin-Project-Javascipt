@@ -244,7 +244,6 @@ function myTest(a, b) {
 }
 
 myTest(79, 7);
-
 let add7 = (num) => num + 7;
 console.log(add7(19));
 
@@ -259,4 +258,44 @@ function lastLetter(myLetter) {
   let letter = myLetter.slice(-1);
   console.log(letter);
   return letter;
+}
+
+// Use the for loop to output even numbers from 2 to 10.
+
+for (i = 2; i <= 10; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+}
+
+// Replace for with while
+
+//for (let i = 0; i < 3; i++) {
+//alert( `number ${i}!` );
+//}
+
+let ix = 0;
+while (ix < 3) {
+  alert(`number ${ix}!`);
+  ix++;
+}
+
+//Write a loop which prompts for a number greater than 100.
+
+let number = 0;
+
+do {
+  number = prompt("Enter a number over 100", 0);
+} while ((number <= 100) & number);
+
+// output prime numbers
+
+let n = 10;
+
+nextPrime: for (let i = 2; i <= n; i++) {
+  for (let j = 2; j < i; j++) {
+    if (i % j == 0) continue nextPrime;
+  }
+
+  alert(i);
 }
